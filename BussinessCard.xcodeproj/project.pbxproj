@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6B6107882846388B000B7BAD /* YashCardApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B6107872846388B000B7BAD /* YashCardApp.swift */; };
+		6B61078A2846388B000B7BAD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B6107892846388B000B7BAD /* ContentView.swift */; };
+		6B61078C2846388D000B7BAD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6B61078B2846388D000B7BAD /* Assets.xcassets */; };
+		6B61078F2846388D000B7BAD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6B61078E2846388D000B7BAD /* Preview Assets.xcassets */; };
+		6B6107992846388D000B7BAD /* YashCardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B6107982846388D000B7BAD /* YashCardTests.swift */; };
+		6B6107A32846388D000B7BAD /* YashCardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B6107A22846388D000B7BAD /* YashCardUITests.swift */; };
+		6B6107A52846388D000B7BAD /* YashCardUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B6107A42846388D000B7BAD /* YashCardUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6B6107952846388D000B7BAD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6B61077C2846388B000B7BAD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6B6107832846388B000B7BAD;
+			remoteInfo = YashCard;
+		};
+		6B61079F2846388D000B7BAD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6B61077C2846388B000B7BAD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6B6107832846388B000B7BAD;
+			remoteInfo = YashCard;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6B6107842846388B000B7BAD /* BussinessCard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BussinessCard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B6107872846388B000B7BAD /* YashCardApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YashCardApp.swift; sourceTree = "<group>"; };
+		6B6107892846388B000B7BAD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		6B61078B2846388D000B7BAD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6B61078E2846388D000B7BAD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		6B6107942846388D000B7BAD /* BussinessCardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BussinessCardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B6107982846388D000B7BAD /* YashCardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YashCardTests.swift; sourceTree = "<group>"; };
+		6B61079E2846388D000B7BAD /* BussinessCardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BussinessCardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B6107A22846388D000B7BAD /* YashCardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YashCardUITests.swift; sourceTree = "<group>"; };
+		6B6107A42846388D000B7BAD /* YashCardUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YashCardUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6B6107812846388B000B7BAD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B6107912846388D000B7BAD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B61079B2846388D000B7BAD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6B61077B2846388B000B7BAD = {
+			isa = PBXGroup;
+			children = (
+				6B6107862846388B000B7BAD /* YashCard */,
+				6B6107972846388D000B7BAD /* YashCardTests */,
+				6B6107A12846388D000B7BAD /* YashCardUITests */,
+				6B6107852846388B000B7BAD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6B6107852846388B000B7BAD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6B6107842846388B000B7BAD /* BussinessCard.app */,
+				6B6107942846388D000B7BAD /* BussinessCardTests.xctest */,
+				6B61079E2846388D000B7BAD /* BussinessCardUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6B6107862846388B000B7BAD /* YashCard */ = {
+			isa = PBXGroup;
+			children = (
+				6B6107872846388B000B7BAD /* YashCardApp.swift */,
+				6B6107892846388B000B7BAD /* ContentView.swift */,
+				6B61078B2846388D000B7BAD /* Assets.xcassets */,
+				6B61078D2846388D000B7BAD /* Preview Content */,
+			);
+			path = YashCard;
+			sourceTree = "<group>";
+		};
+		6B61078D2846388D000B7BAD /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				6B61078E2846388D000B7BAD /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		6B6107972846388D000B7BAD /* YashCardTests */ = {
+			isa = PBXGroup;
+			children = (
+				6B6107982846388D000B7BAD /* YashCardTests.swift */,
+			);
+			path = YashCardTests;
+			sourceTree = "<group>";
+		};
+		6B6107A12846388D000B7BAD /* YashCardUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6B6107A22846388D000B7BAD /* YashCardUITests.swift */,
+				6B6107A42846388D000B7BAD /* YashCardUITestsLaunchTests.swift */,
+			);
+			path = YashCardUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6B6107832846388B000B7BAD /* BussinessCard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B6107A82846388D000B7BAD /* Build configuration list for PBXNativeTarget "BussinessCard" */;
+			buildPhases = (
+				6B6107802846388B000B7BAD /* Sources */,
+				6B6107812846388B000B7BAD /* Frameworks */,
+				6B6107822846388B000B7BAD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BussinessCard;
+			productName = YashCard;
+			productReference = 6B6107842846388B000B7BAD /* BussinessCard.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6B6107932846388D000B7BAD /* BussinessCardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B6107AB2846388D000B7BAD /* Build configuration list for PBXNativeTarget "BussinessCardTests" */;
+			buildPhases = (
+				6B6107902846388D000B7BAD /* Sources */,
+				6B6107912846388D000B7BAD /* Frameworks */,
+				6B6107922846388D000B7BAD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6B6107962846388D000B7BAD /* PBXTargetDependency */,
+			);
+			name = BussinessCardTests;
+			productName = YashCardTests;
+			productReference = 6B6107942846388D000B7BAD /* BussinessCardTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6B61079D2846388D000B7BAD /* BussinessCardUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B6107AE2846388D000B7BAD /* Build configuration list for PBXNativeTarget "BussinessCardUITests" */;
+			buildPhases = (
+				6B61079A2846388D000B7BAD /* Sources */,
+				6B61079B2846388D000B7BAD /* Frameworks */,
+				6B61079C2846388D000B7BAD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6B6107A02846388D000B7BAD /* PBXTargetDependency */,
+			);
+			name = BussinessCardUITests;
+			productName = YashCardUITests;
+			productReference = 6B61079E2846388D000B7BAD /* BussinessCardUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6B61077C2846388B000B7BAD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					6B6107832846388B000B7BAD = {
+						CreatedOnToolsVersion = 13.4;
+					};
+					6B6107932846388D000B7BAD = {
+						CreatedOnToolsVersion = 13.4;
+						TestTargetID = 6B6107832846388B000B7BAD;
+					};
+					6B61079D2846388D000B7BAD = {
+						CreatedOnToolsVersion = 13.4;
+						TestTargetID = 6B6107832846388B000B7BAD;
+					};
+				};
+			};
+			buildConfigurationList = 6B61077F2846388B000B7BAD /* Build configuration list for PBXProject "BussinessCard" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6B61077B2846388B000B7BAD;
+			productRefGroup = 6B6107852846388B000B7BAD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6B6107832846388B000B7BAD /* BussinessCard */,
+				6B6107932846388D000B7BAD /* BussinessCardTests */,
+				6B61079D2846388D000B7BAD /* BussinessCardUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6B6107822846388B000B7BAD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B61078F2846388D000B7BAD /* Preview Assets.xcassets in Resources */,
+				6B61078C2846388D000B7BAD /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B6107922846388D000B7BAD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B61079C2846388D000B7BAD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6B6107802846388B000B7BAD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B61078A2846388B000B7BAD /* ContentView.swift in Sources */,
+				6B6107882846388B000B7BAD /* YashCardApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B6107902846388D000B7BAD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B6107992846388D000B7BAD /* YashCardTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B61079A2846388D000B7BAD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B6107A52846388D000B7BAD /* YashCardUITestsLaunchTests.swift in Sources */,
+				6B6107A32846388D000B7BAD /* YashCardUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6B6107962846388D000B7BAD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6B6107832846388B000B7BAD /* BussinessCard */;
+			targetProxy = 6B6107952846388D000B7BAD /* PBXContainerItemProxy */;
+		};
+		6B6107A02846388D000B7BAD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6B6107832846388B000B7BAD /* BussinessCard */;
+			targetProxy = 6B61079F2846388D000B7BAD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		6B6107A62846388D000B7BAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6B6107A72846388D000B7BAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6B6107A92846388D000B7BAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"YashCard/Preview Content\"";
+				DEVELOPMENT_TEAM = P43UULJH5G;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = yash.clima;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6B6107AA2846388D000B7BAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"YashCard/Preview Content\"";
+				DEVELOPMENT_TEAM = P43UULJH5G;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = yash.clima;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6B6107AC2846388D000B7BAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = P43UULJH5G;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = yash.YashCardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BussinessCard.app/BussinessCard";
+			};
+			name = Debug;
+		};
+		6B6107AD2846388D000B7BAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = P43UULJH5G;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = yash.YashCardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BussinessCard.app/BussinessCard";
+			};
+			name = Release;
+		};
+		6B6107AF2846388D000B7BAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = P43UULJH5G;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = yash.YashCardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = YashCard;
+			};
+			name = Debug;
+		};
+		6B6107B02846388D000B7BAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = P43UULJH5G;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = yash.YashCardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = YashCard;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6B61077F2846388B000B7BAD /* Build configuration list for PBXProject "BussinessCard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B6107A62846388D000B7BAD /* Debug */,
+				6B6107A72846388D000B7BAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6B6107A82846388D000B7BAD /* Build configuration list for PBXNativeTarget "BussinessCard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B6107A92846388D000B7BAD /* Debug */,
+				6B6107AA2846388D000B7BAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6B6107AB2846388D000B7BAD /* Build configuration list for PBXNativeTarget "BussinessCardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B6107AC2846388D000B7BAD /* Debug */,
+				6B6107AD2846388D000B7BAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6B6107AE2846388D000B7BAD /* Build configuration list for PBXNativeTarget "BussinessCardUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B6107AF2846388D000B7BAD /* Debug */,
+				6B6107B02846388D000B7BAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6B61077C2846388B000B7BAD /* Project object */;
+}
